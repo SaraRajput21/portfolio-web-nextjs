@@ -1,4 +1,4 @@
-import Wrapper from "../../components/shared/Wrapper"
+import Wrapper from "@/components/shared/Wrapper"
 
 
 
@@ -13,13 +13,13 @@ const EmailSection = () => {
         Let's Connect
     </h5>
     <p className="text-[#ADB7BE] md:mb-4 md:max-w-md w-64 ">
-        I'm currently looking for new opportunities, my inbox is always open.
+        "I'm currently looking for new opportunities, my inbox is always open.
         Whether you have a question or just want to say hi, I'll try my best
-        to get back to you!
+        to get back to you!"
     </p>
 </div>
 <div>
-    <form className="flex flex-col  ">
+    <form className="flex flex-col">
         {/* email */}
         <div className="mb-6">
         <label htmlFor="email" className="text-white font-medium block mb-2 text-lg">Your email</label>
@@ -52,7 +52,7 @@ const EmailSection = () => {
         </div>
         <button
         type="submit"
-         className="bg-purple-500 hover:bgpurple-600 text-white font-medium py-2.5 px-5 rounded-lg w-full">Send Message</button>
+         className="bg-purple-500 hover:bg-purple-600 text-white font-medium py-2.5 px-5 rounded-lg w-full">Send Message</button>
 
 
 

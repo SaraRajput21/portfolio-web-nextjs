@@ -1,6 +1,6 @@
 import React from "react"
 import Wrapper from "@/components/shared/Wrapper"
-import Banner from "@/assets/images/baner.png"
+import Banner from "@/assets/images/Baner.png"
 import Image from "next/image"
 import MyPicture from "@/assets/images/mypicture.png"
 
@@ -32,14 +32,11 @@ const Hero = () => {
              I bring designs to life with clean, efficient code. I thrive on transforming ideas into interactive and engaging web experiences, constantly seeking to stay updated with the latest web technologies to deliver modern, user-friendly solutions."
            </p>
            {/* button */}
+
            <div className=" mt-6 ml-16 md:ml-36">
             <Button  text ="Projects" link="/projects"/>
            </div>
         
-
-
-           {/* <button className=" rounded-1xl mt-6 ml-16 w-24 bg-stone-900  md:ml-36  py-2 px-2 font-bold text-xl text-orange-400 " >Projects</button> */}
-
         </div>
           
            {/* my picture */}

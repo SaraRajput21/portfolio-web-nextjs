@@ -7,11 +7,4 @@
 body{
     background-color: rgb(0, 0, 33);
 }
-ul li{
-    ul li {
-        
-        background-image: link"@/assets/images/checkmark" ;/* Use 'src' or relative link to your image */
-        
-    }
-    
-}
+

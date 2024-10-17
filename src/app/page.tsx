@@ -21,7 +21,6 @@ export default function Home () {
     {/*Email section  */}
     <EmailSection/>
 
-    {/* <Footer/>    footer section */}
 
 
     </main>
