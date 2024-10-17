@@ -1,7 +1,6 @@
-import React from "react"
 import Wrapper from "@/components/shared/Wrapper"
-import Banner from "@/assets/images/Baner.png"
 import Image from "next/image"
+import BanerImage from '@/assets/images/Banner.png';
 import MyPicture from "@/assets/images/mypicture.png"
 
 // Components
@@ -13,7 +12,7 @@ const Hero = () => {
       <Wrapper>
         {/* banner image */}
         <div >
-          <Image src={Banner} alt="webBanner" className="bg-cover h-40 md:h-80" />
+          <Image src={BanerImage} alt="webBanner" className="bg-cover h-40 md:h-80" />
         </div>
 
         <div className="flex flex-col md:flex-row px-9  ">

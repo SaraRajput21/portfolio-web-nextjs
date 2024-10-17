@@ -11,7 +11,7 @@ const projects = [
     title: 'Resume Builder',
     description: 'Developed a simple and stylish resume builder using HTML, CSS, and TypeScript, designed to generate modern resumes efficiently.',
     link: 'https://vercel.live/link/resume-builder01.vercel.app/?via=team-dashboard-project-entity&p=1',
-    image: Resumemaker, // Directly use the image path
+    image: Resumemaker, 
   },
 
   {
